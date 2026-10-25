@@ -1,0 +1,26 @@
+# Secrets - never push real keys
+.env
+
+# Virtual env
+venv/
+.venv/
+
+# Database file (you push structure, not your local data)
+students.db
+*.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
